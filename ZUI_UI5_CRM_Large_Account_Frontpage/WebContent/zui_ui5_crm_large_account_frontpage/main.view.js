@@ -13,6 +13,7 @@ sap.ui.jsview("zui_ui5_crm_large_account_frontpage.main", {
 	* @memberOf zui_ui5_crm_large_account_frontpage.main
 	*/ 
 	createContent : function(oController) {
+		console.log("Hello Github");
  		return new sap.m.Page({
 			title: "Title",
 			content: [
